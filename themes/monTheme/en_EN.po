@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Modeliar\n"
+"POT-Creation-Date: 2021-01-06 11:05+0100\n"
+"PO-Revision-Date: 2021-01-06 11:06+0100\n"
+"Last-Translator: \n"
+"Language-Team: camille.gcn@outlook.com\n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-Flags-xgettext: --add-comments\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#. if there's a password
+#. and it doesn't match the cookie
+#: comments.php:13
+msgid "Prot&eacute;g&eacute; par mot de passe"
+msgstr "Potrected by password"
+
+#: comments.php:14
+msgid "Entrer le mot de passe pour voir les commentaires"
+msgstr "Enter password for see the comments"
+
+#: comments.php:38
+msgid "le"
+msgstr "the"
+
+#: comments.php:38
+msgid "a"
+msgstr "at"
+
+#: comments.php:40
+msgid "Votre commentaire est en cours de mod&eacute;ration"
+msgstr "Your comment is send to the administrator"
+
+#. end for each comment
+#. this is displayed if there are no comments so far
+#. comments are closed
+#: comments.php:92
+#, fuzzy
+msgid "Vous pouvez utiliser ces tags"
+msgstr "You can use this tags"
+
+#: functions.php:20
+msgid "La Sidebar"
+msgstr "The sidebar"

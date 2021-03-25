@@ -1,0 +1,61 @@
+.sidebar{
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 25rem;
+    .preview_article{
+        display: flex;
+        flex-direction: column;
+    }
+    label{
+        display: none;
+    }
+}
+.search{
+    display: flex;
+    form{
+        div{
+
+            display: inline-flex;
+
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3vw;
+            .screen-reader-text{
+                margin-bottom: 2vw;
+            }
+            #s{
+                padding: 2vw ;
+            }
+            input{
+                margin-bottom: 1vw;
+                padding: 1vw;
+            }
+
+        }
+    }
+    #searchsubmit{
+        color: white;
+        background-color: black;
+        font-family: $moderne;
+        border: none;
+        padding: 1vw;
+    
+    }
+}
+.article{
+
+    margin-bottom: 0.5rem;
+
+    h2{
+        font-size: 1.1rem;
+        line-height: 1.2rem;
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+
+

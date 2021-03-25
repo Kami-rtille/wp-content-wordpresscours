@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+     background-color: white;
+    font-family: $moderne;
+    z-index: 5;
+    position: relative;
+
+    h1{
+        font-family: $serif;
+        color: black;
+        margin-left: 3vw;
+        a{
+            text-decoration: none;
+        }
+    }
+
+    .menu{
+        margin-right: 5vw;
+        display: inline-flex;
+        justify-content: space-around;
+        font-size: 12px;
+        
+        a{
+            text-decoration-line: none;
+            color: black;
+            margin-right: 2vw;
+        }
+    }
+
+}

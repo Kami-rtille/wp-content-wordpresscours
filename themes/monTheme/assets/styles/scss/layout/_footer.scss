@@ -1,0 +1,26 @@
+.blog_footer{
+    position: relative;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    a{
+        color: white;
+    }
+    .logo{
+        margin: 2vw;
+    }
+    .col-1{
+        display: flex;
+        flex-direction: column;
+        margin: auto 0;
+        margin-top: 1vw;
+        a{
+            text-decoration: none;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+        
+    }
+}

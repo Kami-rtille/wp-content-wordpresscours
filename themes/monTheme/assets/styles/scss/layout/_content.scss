@@ -1,0 +1,39 @@
+.post__content{
+    img{
+       position: relative; 
+    }
+    h1, .post__meta{
+        color: black;
+        position: absolute;
+        padding: 3vw;
+    }
+}
+.contents{
+    .post__content{
+        img{
+        position: relative; 
+     }
+    }
+    .post{
+
+     .post__text{
+         color: black;
+         position: absolute;
+         padding: 3vw;
+     
+     h1{
+         
+         padding: 3rem;
+         z-index: 51;
+     }
+     .post__meta{
+        color: $grey;
+        font-size: 1rem;
+        z-index: 52;
+     }
+     .avatar {
+         border-radius: 30px;
+     }
+    }
+    }
+}
